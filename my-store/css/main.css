@@ -2,9 +2,24 @@
 body {
   font-family: 'Chakra Petch', sans-serif;
 }
+  /* Adjust page */
+.container{
+  width : 100% ;
+  max-width : 1200px ;
+  margin : 0px auto ;
+}
+
+  /* Add margin between adjacent section */
+.section {
+  margin-bottom: 64px;
+}
+
+
 .section-title {
   font-size: 32px;
-  font-weight: 600
+  font-weight: 600;
+
+  margin-bottom : 24px;
 }
 
 /*---- Menu ----*/
@@ -14,25 +29,39 @@ body {
   background-image: url('../images/hero-background.jpg'); /* Photo by Nicholas Kampouris on Unsplash */
   background-size: cover;
   background-position: center center;
+
+  height: 720px;
+  padding-top: 128px;
 }
 .hero-title {
   font-size: 64px;
   font-weight: 600;
+
+  height: 720px;
+  padding-top: 128px;
 }
 
 /*---- Collection Section ----*/
 .collection-item {
   background-size: cover;
   background-position: 50% 82%;
+
+  /* exercise 1 */
+  padding: 24px;
+  border-radius: 8px;
 }
 .collection-item-title{
   font-size: 20px;
   font-weight: 600;
+
+  /* exercise 1 */
+  margin-bottom: 12px;
 }
 
 .collection-item-one {
   background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.1)),
     url('../images/classic-collection.jpg'); /* Photo by NordWood Themes on Unsplash */
+
 }
 
 .collection-item-two {
@@ -59,9 +88,26 @@ body {
 }
 
 /*---- Product Section ----*/
+.product-item {
+
+  margin-bottom: 16px;
+  
+}
+.product-item-image {
+  margin-bottom: 16px;
+  width: calc(100% /3);
+  border-radius: 18px;
+  
+}
+
 .product-item-title {
   font-size: 18px;
   font-weight: 600;
+
+  margin-bottom: 8px;
+}
+.price {
+  margin-top: 24px;
 }
 
 /*---- About Section ----*/
