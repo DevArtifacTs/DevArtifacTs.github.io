@@ -25,8 +25,19 @@ body {
 .menu-bar {
   display: flex;
   justify-content: space-between;
+  /* justify-content: space-around; */
   align-items: center;
-  height:72px
+  height:72px;
+
+  padding-left: 50px; 
+  padding-right: 50px;
+
+  /* sticky */
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  
 }
 .menu-bar .logo{
   height: 20px;
@@ -37,6 +48,7 @@ body {
 .nav-item {
   margin-left: 24px;
 }
+
 
 
 /*---- Hero Section ----*/
