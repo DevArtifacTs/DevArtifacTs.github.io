@@ -23,6 +23,22 @@ body {
 }
 
 /*---- Menu ----*/
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:72px
+}
+.menu-bar .logo{
+  height: 20px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  margin-left: 24px;
+}
+
 
 /*---- Hero Section ----*/
 .hero-section {
