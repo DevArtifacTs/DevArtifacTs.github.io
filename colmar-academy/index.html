@@ -14,30 +14,27 @@
     <title>Hello, world!</title>
   </head>
   <body>
+
 <!-- Navbar start here -->
-    <section class="container-fluid bg-white ">
-        <nav class="row nav d-flex flex-wrap">
+    <section class="container-fluid bg-white  navbar align-items-center">
+        <nav class="row nav d-flex flex-wrap w-100 h-100 mx-0   ">
             <!-- logo main column -->
-            <div class="col-md-8">
+            <div class="col-md-8 h-100">
                 <!-- logo nested column -->
-                <div class="container">
-                    <div class="row">
+                <div class="container h-100">
+                    <div class="row ">
                         <!-- logo -->
-                        <div class="col-2">
-                            <a href="#">
-                                <img src="./images/ic-logo.svg" alt="">
-                            </a>
+                        <div class="col-1 px-0">
+                            <img src="./images/ic-logo.svg" alt="logo" class="logo img-fluid" >  
                         </div>
                         <!-- logo text -->
-                        <div class="col-6">
-                            <div class="container">
+                        <div class="col-10 px-0 d-flex align-items-center justify-content-center">
+                            <div class="container px-0 ">
                                 <div class="row">
-                                    <div class="col-6">
-                                        <h1>COLMAR</h1>
+                                    <div class="col-6 px-0">
+                                        <h1 class="logo-text" >COLMAR<span class="text-secondary" >ACADEMY</span></h1> 
                                     </div>
-                                    <div class="col-6">
-                                        <h1>ACADEMY</h1>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -46,32 +43,32 @@
             </div>
 
             <!-- Nav link main column -->
-            <ul class="col-md-4 d-flex">
-                <li class="nav-link"  > On campus </li>
-                <li class="nav-link">Online</li>
-                <li class="nav-link">or companies</li>
-                <li class="nav-link">Sign in</li>
+            <ul class="col-md-4 d-flex justify-content-between align-items-center ">
+                <li class="nav-link  text-secondary "  >On campus </li>
+                <li class="nav-link text-secondary">Online</li>
+                <li class="nav-link text-secondary">or companies</li>
+                <li class="nav-link text-secondary">Sign in</li>
             </ul>
         </nav>
     </section>
 <!-- Navbar end here -->
 
 <!-- JumboTron/Banner -->
-<section class="container bg-light">
+<section class="container-fluid  banner">
     <!-- Main row start here -->
     <div class="row">
         <!-- First Column -->
-        <div class="col-md-6">
+        <div class="col-md-7 ">
             <img src="./images/banner.jpg" alt="" class="img-fluid">
         </div>
         <!-- Second Column -->
-        <div class="col-md-6">
+        <div class="col-md-5 banner-info "  >
             <!-- Nested Banner text start here -->
-            <div class="container">
+            <div class="container banner-info-item">
                 <!-- Nested Column's First row -->
                 <div class="row">
                     <div class="col">
-                        <h1>learn something</h1>
+                        <h1>Learn something</h1>
                     </div>
                 </div>
                 <!-- Nested Column's Second row -->
@@ -91,8 +88,8 @@
                     <h3>consectetur adipisicing elit.</h3>
                 </div>
                 <!-- Nested Column's Fifth row -->
-                <div class="row">
-                    <button>Start here</button>
+                <div class="row " id="banner-button-row">
+                    <button id="banner-button" class="text-white bg-dark">Start here</button>
                 </div>
             </div>
         </div>
@@ -103,16 +100,16 @@
 <!-- JumboTron/Banner end here -->
 
 <!-- Brief Info -->
-<section class="container">
+<section class="container-fluid bg-white info">
         <!-- Main row start -->
         <div class="row">
             <!-- Main First column -->
-            <div class="col-md-6">
+            <div class="col-md-7 " id="info-first-col" >
                 <!-- First Nested column start here -->
-                <div class="container">
+                <div class="container info-item">
                     <!-- Nested Column First row -->
                     <div class="row">
-                        <div class="col">
+                        <div class="col pb-5">
                             <img src="./images/information-main.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -142,19 +139,19 @@
             <!-- Main First column end here -->
 
             <!-- Main Second column -->
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <!-- Second Nested Column start here -->
-                <div class="container">
+                <div class="container info-item ">
 
                     <!-- Nested Column First row -->
-                    <div class="row">
-                        <div class="col">
+                    <div class="row  ">
+                        <div class="col  ">
                             <!--First Sub-Nested row -->
-                            <div class="row">
-                                <div class="col-3">
+                            <div class="row info-card-item info-row">
+                                <div class="col-4 info-card-item-image">
                                     <img src="./images/information-orientation.jpg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col-9">
+                                <div class="col-8">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col">
@@ -178,14 +175,14 @@
                     </div>
 
                     <!-- Nested Column Second row -->
-                    <div class="row">
+                    <div class="row ">
                         <div class="col">
                             <!--First Sub-Nested row -->
-                            <div class="row">
-                                <div class="col-3">
+                            <div class="row info-row">
+                                <div class="col-4 .info-card-item-image">
                                     <img src="./images/information-campus.jpg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col-9">
+                                <div class="col-8">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col">
@@ -212,11 +209,11 @@
                     <div class="row">
                         <div class="col">
                             <!--First Sub-Nested row -->
-                            <div class="row">
-                                <div class="col-3">
+                            <div class="row bg-gray info-row">
+                                <div class="col-4 .info-card-item-image">
                                     <img src="./images/information-guest-lecture.jpg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col-9">
+                                <div class="col-8">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col">
@@ -249,44 +246,44 @@
 <!-- Brief Info end here -->
 
 <!-- Learning Start -->
-<section class="container">
-    <h1>Start learning</h1>
+<section class="container-fluid bg-gray learning ">
+    <h1 class="text-center mb-5" >Start learning</h1>
     <!-- First row start -->
-    <div class="row">
+    <div class="row g-4 ">
         <!-- First Col -->
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col">
+            <div class="card h-100 " >
                 <img src="./images/course-software.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Software engineering</h5>
                     <p class="card-text">COURSES</p>
-                  <p>Web Development,Mobile</p>
-                  <p>Development, iOT, APIs</p>
+                  <p>Web Development,Mobile<br>
+                    Development, iOT, APIs</p>
                 </div>
             </div>
         </div>
         <!-- Second Col -->
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col">
+            <div class="card h-100" >
                 <img src="./images/course-computer-art.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Computer Art</h5>
                     <p class="card-text">COURSES</p>
-                  <p>Imaging & Design, Web Design</p>
-                  <p>Motion Graphics & Visual Effects,</p>
-                  <p>Computer Animation</p>
+                  <p>Imaging & Design, Web Design<br>
+                    Motion Graphics & Visual Effects,<br>
+                    Computer Animation</p>
                 </div>
             </div>
         </div>
         <!-- Third Col -->
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col">
+            <div class="card h-100" >
                 <img src="./images/course-design.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Design</h5>
                     <p class="card-text">COURSES</p>
-                  <p>User experience Design, User</p>
-                  <p>Research, Visual Design</p>
+                  <p>User experience Design, User<br>
+                    Research, Visual Design</p>
                 </div>
             </div>
         </div>
@@ -294,40 +291,40 @@
     <!-- First row end -->
 
     <!-- Second row start -->
-    <div class="row">
+    <div class="row g-4 pt-4 ">
         <!-- First Col -->
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card h-100" >
                 <img src="./images/course-data.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Data</h5>
                     <p class="card-text">COURSES</p>
-                  <p>Data Science, Big Data, SQL, Data</p>
-                  <p>Visualizations</p>
+                  <p>Data Science, Big Data, SQL, Data<br>
+                    Visualizations</p>
                 </div>
             </div>
         </div>
         <!-- Second Col -->
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card h-100" >
                 <img src="./images/course-business.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Business</h5>
                     <p class="card-text">COURSES</p>
-                  <p>Product Developtment, Business</p>
-                  <p>Development, Startup</p>
+                  <p>Product Developtment, Business<br>
+                    Development, Startup</p>
                 </div>
             </div>
         </div>
         <!-- Third Col -->
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card h-100" >
                 <img src="./images/course-marketing.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Marketing</h5>
                     <p class="card-text">COURSES</p>
-                  <p>Analytics, Content Marketing</p>
-                  <p>Mobile Marketing</p>
+                  <p>Analytics, Content Marketing<br>
+                    Mobile Marketing </p>
                 </div>
             </div>
         </div>
@@ -337,18 +334,19 @@
 <!-- Learning End here -->
 
 <!-- Thesis Exhibit Start -->
-<section class="container">
+<section class="container-fluid bg-light py-5">
+    <h1 class="text-center mb-5 " >Thesis exhibit</h1>
     <!-- row -->
     <div class="row">
         <!-- First Col -->
-        <div class="col-md-6">
-            <div class="card" >
-                <div class="embed-responsive embed-responsive-16by9">
+        <div class="col-md-7">
+            <div class="card " >
+                <div class="embed-responsive embed-responsive-16by9 w-100">
                     <iframe class="embed-responsive-item" src="./videos/thesis.mp4" allowfullscreen></iframe>
-                  </div>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Reimagine urban</h5>
-                  <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec<br>
+                    <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec<br>
                     consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget<br>
                     magna laoreet, effcitur dolor consequat, tristique ligula. "</p>
                 </div>
@@ -356,7 +354,7 @@
         </div>
 
         <!-- Second Col -->
-        <div class="col-md-6">
+        <div class="col-md-5">
             <div class="container">
                 <!-- Nest First row -->
                 <div class="row">
