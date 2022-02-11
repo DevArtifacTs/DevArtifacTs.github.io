@@ -5,222 +5,417 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- main.css for adjust some style -->
-    <link rel="stylesheet" href="./main.css">
-
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
+    <!-- Custom CSS -->
+    <link href="./style/main.css " rel="stylesheet"   >
 
     <title>Hello, world!</title>
   </head>
   <body>
 
-<!-- Header -->
-<header>
-    <div class="px-3 py-2 bg-primary text-white">
-        <div class="container-fluid">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                <img src="./coding.png" alt="" class="bi me-2" width="120" height="120" role="img" aria-label="Bootstrap">
-            </a>
-            
-            <!-- Nav Links -->
-            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-              <li>
-                <a href="#" class="nav-link text-white">
-                    <img src="./home.png" alt="" class="bi d-block mx-auto mb-1" width="30" height="28" role="img" aria-label="Bootstrap">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link text-white">
-                    <img src="./education.png" alt="" class="bi d-block mx-auto mb-1" width="30" height="28" role="img" aria-label="Bootstrap">
-                  Education
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link text-white">
-                    <img src="./experience.png" alt="" class="bi d-block mx-auto mb-1" width="30" height="28" role="img" aria-label="Bootstrap">
-                  Experience
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link text-white">
-                    <img src="./skill.png" alt="" class="bi d-block mx-auto mb-1" width="30" height="28" role="img" aria-label="Bootstrap">
-                  Skills
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link text-white">
-                    <img src="./showcase.png" alt="" class="bi d-block mx-auto mb-1" width="30" height="28" role="img" aria-label="Bootstrap">
-                  Case
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link text-white">
-                    <img src="./contact.png" alt="" class="bi d-block mx-auto mb-1" width="30" height="28" role="img" aria-label="Bootstrap">
-                  Contact
-                </a>
-              </li>
+<!-- Navbar start here -->
+    <section class="container-fluid bg-white  navbar align-items-center">
+        <nav class="row nav d-flex flex-wrap w-100 h-100 mx-0   ">
+            <!-- logo main column -->
+            <div class="col-md-8 h-100">
+                <!-- logo nested column -->
+                <div class="container h-100">
+                    <div class="row ">
+                        <!-- logo -->
+                        <div class="col-1 px-0">
+                            <img src="./images/ic-logo.svg" alt="logo" class="logo img-fluid" >  
+                        </div>
+                        <!-- logo text -->
+                        <div class="col-10 px-0 d-flex align-items-center justify-content-center">
+                            <div class="container px-0 ">
+                                <div class="row">
+                                    <div class="col-6 px-0">
+                                        <h1 class="logo-text" >COLMAR<span class="text-secondary" >ACADEMY</span></h1> 
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nav link main column -->
+            <ul class="col-md-4 d-flex justify-content-between align-items-center ">
+                <li class="nav-link  text-secondary "  >On campus </li>
+                <li class="nav-link text-secondary">Online</li>
+                <li class="nav-link text-secondary">or companies</li>
+                <li class="nav-link text-secondary">Sign in</li>
             </ul>
-          </div>
+        </nav>
+    </section>
+<!-- Navbar end here -->
+
+<!-- JumboTron/Banner -->
+<section class="container-fluid  banner">
+    <!-- Main row start here -->
+    <div class="row">
+        <!-- First Column -->
+        <div class="col-md-7 ">
+            <img src="./images/banner.jpg" alt="" class="img-fluid">
         </div>
-      </div>
-  </header>
-
-
-<!-- About -->
-<div class="p-5 mb-4 bg-light rounded-3">
-    <div class="container-fluid py-5">
-      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-      <button class="btn btn-primary btn-lg" type="button">Hire Me</button>
+        <!-- Second Column -->
+        <div class="col-md-5 banner-info "  >
+            <!-- Nested Banner text start here -->
+            <div class="container banner-info-item">
+                <!-- Nested Column's First row -->
+                <div class="row">
+                    <div class="col">
+                        <h1>Learn something</h1>
+                    </div>
+                </div>
+                <!-- Nested Column's Second row -->
+                <div class="row">
+                    <div class="col">
+                        <h1>new everyday</h1>
+                    </div>
+                </div>
+                <!-- Nested Column's Third row -->
+                <div class="row">
+                    <div class="col">
+                        <h3>Lorem ipsum dolor sit amet, </h3>
+                    </div>
+                </div>
+                <!-- Nested Column's Fourth row -->
+                <div class="col">
+                    <h3>consectetur adipisicing elit.</h3>
+                </div>
+                <!-- Nested Column's Fifth row -->
+                <div class="row " id="banner-button-row">
+                    <button id="banner-button" class="text-white bg-dark">Start here</button>
+                </div>
+            </div>
+        </div>
+        <!-- Second column end here -->
     </div>
-</div>
+    <!-- Main row end here -->
+</section>
+<!-- JumboTron/Banner end here -->
 
-<!-- Showcase -->
-  <section class="container-fluid bg-light my-3 ">
-      <h2 class="pb-2 border-bottom fw-bold display-5 " >Showcase</h2>
-    <div class="row gx-2 gy-3">
-        <!-- First Case -->
-        <div class="col-md-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+<!-- Brief Info -->
+<section class="container-fluid bg-white info">
+        <!-- Main row start -->
+        <div class="row">
+            <!-- Main First column -->
+            <div class="col-md-7 " id="info-first-col" >
+                <!-- First Nested column start here -->
+                <div class="container info-item">
+                    <!-- Nested Column First row -->
+                    <div class="row">
+                        <div class="col pb-5">
+                            <img src="./images/information-main.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <!-- Nested Column Second row -->
+                    <div class="row">
+                        <div class="col">
+                            <h2>It doesn't hurt to keep practicing</h2>
+                        </div>
+                    </div>
+                    <!-- Nested Column Third row -->
+                    <div class="row">
+                        <div class="col">
+                            <p>"Curabitur vitae libero i ipsum porttior consequat.Aliquam et commodo lectus,
+                                nec consequat neque.Sed non accumsan urna.Phasellus sed consequat ex. Etiam
+                                eget magna laoreet, efficitur dolor consequat, tristique ligula"</p>
+                        </div>
+                    </div>
+                    <!-- Nested Column Fourth row -->
+                    <div class="row">
+                        <div class="col">
+                            <p>Emanurl, Sr Strategist at Hiring.com</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <!-- Main First Nested column end here -->
+            </div>
+            <!-- Main First column end here -->
+
+            <!-- Main Second column -->
+            <div class="col-md-5">
+                <!-- Second Nested Column start here -->
+                <div class="container info-item ">
+
+                    <!-- Nested Column First row -->
+                    <div class="row  ">
+                        <div class="col  ">
+                            <!--First Sub-Nested row -->
+                            <div class="row info-card-item info-row">
+                                <div class="col-4 info-card-item-image">
+                                    <img src="./images/information-orientation.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-8">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Orientation date</h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nested Column Second row -->
+                    <div class="row ">
+                        <div class="col">
+                            <!--First Sub-Nested row -->
+                            <div class="row info-row">
+                                <div class="col-4 .info-card-item-image">
+                                    <img src="./images/information-campus.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-8">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Orientation date</h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nested Column Third row -->
+                    <div class="row">
+                        <div class="col">
+                            <!--First Sub-Nested row -->
+                            <div class="row bg-gray info-row">
+                                <div class="col-4 .info-card-item-image">
+                                    <img src="./images/information-guest-lecture.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-8">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Orientation date</h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Second Nested Column end here -->
+            </div>
+            <!-- Main Second column end here -->
         </div>
-        <!-- Second Case -->
-        <div class="col-md-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+        <!-- Main row end here -->
+</section>
+<!-- Brief Info end here -->
+
+<!-- Learning Start -->
+<section class="container-fluid bg-gray learning ">
+    <h1 class="text-center mb-5" >Start learning</h1>
+    <!-- First row start -->
+    <div class="row g-4 ">
+        <!-- First Col -->
+        <div class="col">
+            <div class="card h-100 " >
+                <img src="./images/course-software.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Software engineering</h5>
+                    <p class="card-text">COURSES</p>
+                  <p>Web Development,Mobile<br>
+                    Development, iOT, APIs</p>
                 </div>
             </div>
         </div>
-        <!-- Third Case -->
-        <div class="col-md-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+        <!-- Second Col -->
+        <div class="col">
+            <div class="card h-100" >
+                <img src="./images/course-computer-art.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Computer Art</h5>
+                    <p class="card-text">COURSES</p>
+                  <p>Imaging & Design, Web Design<br>
+                    Motion Graphics & Visual Effects,<br>
+                    Computer Animation</p>
                 </div>
             </div>
         </div>
-        <!-- Fourth Case -->
-        <div class="col-md-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+        <!-- Third Col -->
+        <div class="col">
+            <div class="card h-100" >
+                <img src="./images/course-design.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Design</h5>
+                    <p class="card-text">COURSES</p>
+                  <p>User experience Design, User<br>
+                    Research, Visual Design</p>
                 </div>
             </div>
         </div>
     </div>
-  </section>
+    <!-- First row end -->
 
-  <!-- Skills -->
-  <section class="container-fluid bg-secondary my-5">
-    <h2 class="pb-2 border-bottom fw-bold display-5 " >Skills</h2>
-    <div class="row gx-2 gy-3">
-        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center ">
-            <img src="./html.png" alt="HTML-logo" class="img-fluid img-fluid-custom">
-            <h2>HTML</h2>
+    <!-- Second row start -->
+    <div class="row g-4 pt-4 ">
+        <!-- First Col -->
+        <div class="col-md-4">
+            <div class="card h-100" >
+                <img src="./images/course-data.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Data</h5>
+                    <p class="card-text">COURSES</p>
+                  <p>Data Science, Big Data, SQL, Data<br>
+                    Visualizations</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center ">
-            <img src="./css.png" alt="HTML-logo" class="img-fluid img-fluid-custom">
-            <h2>CSS</h2>
+        <!-- Second Col -->
+        <div class="col-md-4">
+            <div class="card h-100" >
+                <img src="./images/course-business.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Business</h5>
+                    <p class="card-text">COURSES</p>
+                  <p>Product Developtment, Business<br>
+                    Development, Startup</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center ">
-            <img src="./js.png" alt="HTML-logo" class="img-fluid img-fluid-custom">
-            <h2>Java Script</h2>
+        <!-- Third Col -->
+        <div class="col-md-4">
+            <div class="card h-100" >
+                <img src="./images/course-marketing.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Marketing</h5>
+                    <p class="card-text">COURSES</p>
+                  <p>Analytics, Content Marketing<br>
+                    Mobile Marketing </p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center ">
-            <img src="./bootstrap.png" alt="HTML-logo" class="img-fluid img-fluid-custom">
-            <h2>Bootstrap</h2>
-        </div>
-    </div>
-  </section>
+    </div>    
+    <!-- Second row end -->
+</section>
+<!-- Learning End here -->
 
-<!-- Working Experience -->
-<section class="education">
-    <h2 class="pb-2 border-bottom fw-bold display-5 " >Working Experience</h2>
-    <div class="list-group list-group-checkable">
-        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
-            <img src="./murata.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0 me-2">
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                <h6 class="mb-0">2019 - 2021</h6>
+<!-- Thesis Exhibit Start -->
+<section class="container-fluid bg-light py-5">
+    <h1 class="text-center mb-5 " >Thesis exhibit</h1>
+    <!-- row -->
+    <div class="row">
+        <!-- First Col -->
+        <div class="col-md-7">
+            <div class="card " >
+                <div class="embed-responsive embed-responsive-16by9 w-100">
+                    <iframe class="embed-responsive-item" src="./videos/thesis.mp4" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Reimagine urban</h5>
+                    <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec<br>
+                    consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget<br>
+                    magna laoreet, effcitur dolor consequat, tristique ligula. "</p>
+                </div>
             </div>
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                  <p class="mb-0 opacity-75">Production and Machine Designer Engineer.</p>
+        </div>
+
+        <!-- Second Col -->
+        <div class="col-md-5">
+            <div class="container">
+                <!-- Nest First row -->
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="./images/thesis-now-and-then.jpg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <!-- Nest Second row -->
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="./images/thesis-now-and-then.jpg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
             </div>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
-            <img src="./xenoptics.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0 me-2">
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                <h6 class="mb-0">2018 - 2019</h6>
-            </div>
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                  <p class="mb-0 opacity-75">Intern Mechatronic Engineer.</p>
-            </div>
-        </a>
+        </div>
     </div>
 </section>
+<!-- Thesis Exhibit End -->
 
-<!-- Education -->
-<section class="Education">
-    <h2 class="pb-2 border-bottom fw-bold display-5 " >Education</h2>
-    <div class="list-group list-group-checkable container">
-        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
-            <img src="./" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0 me-2">
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                <h6 class="mb-0">2022</h6>
-            </div>
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                  <p class="mb-0 opacity-75">Mechanical Engineering, Chiangmai University</p>
-            </div>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
-            <img src="./cmu_eng_logo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0 me-2">
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                <h6 class="mb-0">2015 - 2019</h6>
-            </div>
-            <div class="d-flex gap-2 w-100 justify-content-between">
-                  <p class="mb-0 opacity-75">Mechanical Engineering, Chiangmai University</p>
-            </div>
-        </a>
+<!-- Footer Start -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <p>&copy2016 Colmar Academy. All right reserverd </p>
+        </div>
+        
+        <ul class="col-md-3 d-flex ">
+            <li class="mx-4" ><a href="#">Terms</a></li>
+            <li class="mx-4" > <a href="#">Privacy</a></li>
+        </ul>
     </div>
 </section>
-
-<!-- Footer -->
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-primary">
-    <div class="container">
-      <p class="col-md-4 mb-0 text-muted">&copy; Jessada</p>
-  
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      </a>
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-      </ul>
-    </div>
-</footer>
+<!-- Footer End -->
 
   </body>
 </html>
