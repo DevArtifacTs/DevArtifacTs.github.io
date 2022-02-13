@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="bor container-fluid"  style="height: 64px;">
+        <div class="row h-100 px-4">
+            <div class="bor col-1 col-md-1 col-lg-5 col-xl-5 col-xxl-6 px-0 d-flex align-items-center ">
+                <img src="./images/ic-logo.svg" alt="logo" class="img.fluid" id="colmar-web-logo"  >
+                <span  class="fs-3 fw-bolder d-none d-sm-none d-md-none d-lg-inline-block ">COLMAR <span class="text-muted" >ACADEMY</span> </span>
+            </div>
+        
+            <div class="bor col-11 col-md-11 col-lg-7 col-xl-7 col-xxl-6  d-flex justify-content-end px-4 pe-0 "">
+                <ul class="bor d-flex justify-content-end align-items-center list-unstyled my-0 w-100  d-none d-sm-inline-flex ">
+                    <li class="nav-links"> <a class="text-decoration-none text-dark fs-4 fw-normal " href="">On campus</a> </li>
+                    <li class="nav-links"> <a class="text-decoration-none text-dark fs-4 fw-normal " href="">Online</a> </li>
+                    <li class="nav-links"> <a class="text-decoration-none text-dark fs-4 fw-normal " href="">or companies</a> </li>
+                    <li class="nav-links"> <a class="text-decoration-none text-dark fs-4 fw-normal " href="">Sign in</a> </li>
+                </ul>
+                <!-- For Mobile Only -->
+                <ul  class="bor d-flex justify-content-around align-items-center  list-unstyled my-0 w-100 d-inline-block d-sm-none">
+                    <li class="nav-links"> <a href=""> <img src="./images/ic-on-campus.svg" alt="on-campus-icon" class="navbar-menu-icon"> </a> </li>
+                    <li class="nav-links"> <a href=""> <img src="./images/ic-online.svg" alt="online-icon" class="navbar-menu-icon"> </a> </li>
+                    <li class="nav-links"> <a href=""> <img src="./images/ic-login.svg" alt="login-icon" class="navbar-menu-icon"> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="bor container-fluid " id="banner" >
+        <div class="bor row ">
+            <div class="bor col-12 col-sm-12 col-md-12 col-lg-7  px-0">
+                <img src="./images/banner.jpg" alt="banner-image" class="img-fluid" id="banner-image" >
+            </div>
+
+            <div class="bor col-12 col-sm-12 col-md-12 col-lg-5 d-flex flex-column align-items-center justify-content-center px-4 "id="banner-text-container">
+                <div class="banner-text">
+                    <h1 class="bor lh-1 mb-4 fs-1 fw-bolder banner-text">Learn something new everyday</h1>
+                    <p class="bor lh-sm fs-4 fw-normal ">ipsum dolor sit,<br>amet consectetur adipisicing elit.</p>
+                </div>
+                <button class="bor fs-5 fw-bold text-white " id="banner-button" >Start here</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info -->
+    <section class="bor container-fluid"  id="info">
+        <div class="bor row">
+            <!-- Info First Column -->
+            <div class="col-md-7 border-right px-0 d-flex d-none d-sm-none d-md-block  ">
+                <div class="content" id="info-first-column">
+                    <img src="./images/information-main.jpg" alt="info-main-image" class="img-fluid" id="info-heading-image" >
+                    <h2 class="fs-1 fw-bold mt-4 mb-3" >It doesn't hurt to keep practicing</h2>
+                    <p class="fs-6 fw-normal" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque consectetur officia aspernatur
+                    esse iure nostrum doloribus sed quod! Accusamus repellat officia fuga voluptates, molestias 
+                    earum magnam non quo nam a.
+                    </p>
+                    <p class="mt-5 mb-0">Emanuel, Sr Strategist at Hiring.com</p>
+                </div>
+            </div>
+
+            <!-- Info Second Column -->
+            <div class="col-12 col-md-5 px-0">
+                <div class=" content px-0" id="info-second-column">
+                    <div class="info-sub-content-item mb-1 bg-white border ">
+                        <img src="./images/information-orientation.jpg" alt="orientation-image" class="bor img-fluid info-sub-content-image d-none d-md-block " >
+                        <!-- image for mobile -->
+                        <img src="./images/information-orientation-mobile.jpg" alt="orientation-image" class="bor img-fluid info-sub-content-image d-md-none " >
+
+                        <div class=" info-sub-content-text d-flex flex-column px-3  ">
+                            <h3>Orientation date</h3>
+                            <p>Tue 10/11 & Wed 10/12 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="info-sub-content-item mb-1 bg-white border">
+                        <img src="./images/information-campus.jpg" alt="orientation-image" class="bor img-fluid info-sub-content-image d-none d-md-block  " >
+                        <!-- image for mobile -->
+                        <img src="./images/information-campus-mobile.jpg" alt="orientation-image" class="bor img-fluid info-sub-content-image d-md-none " >
+
+                        <div class="info-sub-content-text d-flex flex-column px-3 ">
+                            <h3>Our campus</h3>
+                            <p>Find which campus is cose by you</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="info-sub-content-item mb-1 border " id="info-sub-content-3">
+                        <img src="./images/information-guest-lecture.jpg" alt="orientation-image" class="bor img-fluid info-sub-content-image d-none d-md-block  " >
+                        <!-- image for mobile -->
+                        <img src="./images/information-guest-lecture-mobile.jpg" alt="orientation-image" class="bor img-fluid info-sub-content-image d-md-none " >
+                        <div class=" info-sub-content-text d-flex flex-column px-3 ">
+                            <h3>Our guest lecture</h3>
+                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Learning -->
+    <section class="bor container-fluid" id="learning-container">
+        <h1 class="text-center fw-bolder" id="learning-heading-text" >Start learning</h1>
+        <!-- First row -->
+        <div class="bor row px-0 card-row d-none d-md-inline-flex w-100 ">
+            <!-- First card -->
+            <div class="bor col-4 px-0 d-flex justify-content-center">
+                <div class="card" >
+                    <img src="./images/course-software.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Software engineering</h5>
+                        <h5>COURSES</h5>
+                        <p class="card-text">Web Development, Mobile<br>
+                    Development, iOT, APIs</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Second card -->
+            <div class="bor col-4 px-0 d-flex justify-content-center">
+                <div class="card" >
+                    <img src="./images/course-computer-art.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>COURSES</h5>
+                        <h5 class="card-title">Computer Art</h5>
+                        <p class="card-text">Imaging & Design, Web Design,<br>
+                    Motion Graphics & Visual Effects,<br>
+                    Computer Animation</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third card -->
+            <div class="bor col-4 px-0 d-flex justify-content-center">
+                <div class="card" >
+                    <img src="./images/course-design.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>COURSES</h5>
+                        <h5 class="card-title">Design</h5>
+                        <p class="card-text">User Experience Design, User<br>
+                        Research, Visual Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Second row -->
+        <div class="bor row px-0 card-row d-none d-md-inline-flex w-100">
+            <!-- First card -->
+            <div class="bor col-4 px-0 d-flex justify-content-center">
+                <div class="card" >
+                    <img src="./images/course-data.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Data</h5>
+                        <h5>COURSES</h5>
+                        <p class="card-text">Data Science, Big Data, SQL, Data<br>
+                    Visualization</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Second card -->
+            <div class="bor col-4 px-0 d-flex justify-content-center">
+                <div class="card" >
+                    <img src="./images/course-business.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>COURSES</h5>
+                        <h5 class="card-title">Business</h5>
+                        <p class="card-text">Product Development, Business<br>
+                    Development, Startup<br>
+                    Computer Animation</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third card -->
+            <div class="bor col-4 px-0 d-flex justify-content-center">
+                <div class="card" >
+                    <img src="./images/course-marketing.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>COURSES</h5>
+                        <h5 class="card-title">Marketing</h5>
+                        <p class="card-text">Analytics, Content Marketing,<br>
+                        Mobile Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- For Mobile -->
+        <div class="mobile-menu-item-container d-md-none">
+            <div class="row bor  ">
+                <div class="col-12 learning-mobile-menu-item ">
+                    <h1>Software engineering</h1>
+                </div>
+            </div>
+            <div class="row bor  ">
+                <div class="col-12 learning-mobile-menu-item ">
+                    <h1>Computer Art</h1>
+                </div>
+            </div>
+            <div class="row bor  ">
+                <div class="col-12 learning-mobile-menu-item ">
+                    <h1>Design</h1>
+                </div>
+            </div>
+            <div class="row bor  ">
+                <div class="col-12 learning-mobile-menu-item ">
+                    <h1>Data</h1>
+                </div>
+            </div>
+            <div class="row bor  ">
+                <div class="col-12 learning-mobile-menu-item ">
+                    <h1>Business</h1>
+                </div>
+            </div>
+            <div class="row bor  ">
+                <div class="col-12 learning-mobile-menu-item ">
+                    <h1>Marketing</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thesis Exhibit -->
+    <section class="bor container-fluid  "  id="thesis">
+        <h1 class="thesis-heading-text text-center fw-bolder">Thesis exhibit</h1>
+        <div class="bor row">
+
+            <div class="bor col-12 col-md-12 col-lg-7  ">
+                <video src="./videos/thesis.mp4" class="thesis-video-item" width="320" height="300" controls></video>
+                <h5 class="bor mb-3 fw-bold fs-3 d-none d-lg-block ">Reimagine urban</h5>
+                <p class="bor fs-6 fw-normal d-none d-lg-block" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque consectetur officia aspernatur
+                    esse iure nostrum doloribus sed quod! Accusamus repellat officia fuga voluptates, molestias
+                    earum magnam non quo nam a.
+                    </p>
+            </div>
+
+            <div class="bor col-lg-5 d-none d-lg-inline-block">
+                <!-- Exhibit gallery -->
+                <div class="bor gallery-item" style="background-color: #d8d8d8;" > <!-- display : grid,  grid-column 1fr 1fr -->
+                    <img src="./images/thesis-fisma.jpg" alt="exhibition-image" class="bor gallery-item-image">
+                    <div class="bor gallery-text">
+                        <h3>Fisma: Design and Prototype</h3>
+                        <p>Designer showcase of new Prototype product</p>
+                    </div>
+                </div>
+
+                <div class="bor gallery-item"> <!-- display : grid,  grid-column 1fr 1fr -->
+                    <img src="./images/thesis-now-and-then.jpg" alt="exhibition-image" class="bor gallery-item-image">
+                    <div class="bor gallery-text">
+                        <h3>Now and then</h3>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid" id="footer">
+        <div class="footer-copy-right">
+            <p>&copy Colmar Academy. All rights reserved </p>
+        </div>
+        <div class="footer-link d-none d-md-inline-block">
+            <a href="#" class="text-decoration-none text-dark fs-5 fw-normal">Terms</a>
+            <a href="#" class="text-decoration-none text-dark fs-5 fw-normal">Privacy</a>
+        </div>
+    </footer>
+
+  </body>
+</html>
