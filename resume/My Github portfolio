@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T16:33:55.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="4muhiSCYrFkIJ4vInyuV" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T02:01:15.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="CjwS0mYIxmTuqxOp8C8G" version="16.5.6" type="github">
   <diagram name="Page-1" id="2cc2dc42-3aac-f2a9-1cec-7a8b7cbee084">
-    <mxGraphModel dx="1221" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7026571954dc6520-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#05386B;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="10" y="23" width="1050" height="1197" as="geometry" />
+          <mxGeometry x="10" y="-10" width="1050" height="1197" as="geometry" />
         </mxCell>
         <mxCell id="7026571954dc6520-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="7026571954dc6520-1" vertex="1">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
@@ -85,20 +85,74 @@
         <mxCell id="T-tbpQrTCUHHw2_cB1-d-36" value="&lt;font color=&quot;#ffffff&quot;&gt;I&#39;m an junior software developer.&amp;nbsp;I love to developt a front-end side.&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ffffff&quot;&gt;Recently, I&#39;ve graduated from &quot;Junior Software Developer&quot; training program&amp;nbsp; &lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ffffff&quot;&gt;by &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#45a29e&quot;&gt;Generation Thailand&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt; and &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#45a29e&quot;&gt;Skooldio&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;.&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=15;fontColor=#EE4C7C;" vertex="1" parent="7026571954dc6520-1">
           <mxGeometry x="75" y="507" width="520" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T-tbpQrTCUHHw2_cB1-d-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;fontColor=#1F2833;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="7026571954dc6520-1">
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;fontColor=#1F2833;strokeColor=#000000;fillColor=#1F2833;" vertex="1" parent="7026571954dc6520-1">
           <mxGeometry y="577" width="1050" height="449" as="geometry" />
         </mxCell>
-        <mxCell id="T-tbpQrTCUHHw2_cB1-d-40" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#1F2833;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#66FCF1;" edge="1" parent="7026571954dc6520-1" source="T-tbpQrTCUHHw2_cB1-d-39" target="T-tbpQrTCUHHw2_cB1-d-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="427" as="sourcePoint" />
-            <mxPoint x="580" y="377" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="T-tbpQrTCUHHw2_cB1-d-41" value="&lt;h1&gt;&lt;span style=&quot;font-size: 45px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Case&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#EDF5E1;" vertex="1" parent="7026571954dc6520-1">
-          <mxGeometry x="430" y="600" width="120" height="70" as="geometry" />
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-41" value="&lt;h1&gt;&lt;span style=&quot;font-size: 45px&quot;&gt;&lt;font color=&quot;#66fcf1&quot;&gt;Case&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#EDF5E1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="430" y="591" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="T-tbpQrTCUHHw2_cB1-d-42" value="&lt;font color=&quot;#ffffff&quot;&gt;I&#39;m a front end developer. My skill based un React&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=15;fontColor=#EE4C7C;" vertex="1" parent="7026571954dc6520-1">
           <mxGeometry x="83" y="441" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-43" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#000000;strokeColor=#05386B;strokeWidth=2;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="7026571954dc6520-1" source="T-tbpQrTCUHHw2_cB1-d-39" target="T-tbpQrTCUHHw2_cB1-d-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="727" as="sourcePoint" />
+            <mxPoint x="580" y="677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;strokeColor=#66FCF1;fillColor=#C5C6C7;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="70" y="690" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-45" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;strokeColor=#05386B;strokeWidth=2;exitX=0.006;exitY=0.373;exitDx=0;exitDy=0;entryX=1.004;entryY=0.376;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="7026571954dc6520-1" source="T-tbpQrTCUHHw2_cB1-d-44" target="T-tbpQrTCUHHw2_cB1-d-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="860" as="sourcePoint" />
+            <mxPoint x="580" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-46" value="&lt;font color=&quot;#000000&quot;&gt;Space Invader Game&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="115" y="810" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-47" value="&lt;font color=&quot;#000000&quot;&gt;Language / Tools : &lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- HTML&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- CSS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;-Javascript&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="100" y="890" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-48" value="&lt;font color=&quot;#000000&quot;&gt;Description````````&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="115" y="850" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;strokeColor=#66FCF1;fillColor=#C5C6C7;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="370" y="690" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-50" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;strokeColor=#05386B;strokeWidth=2;exitX=0.006;exitY=0.373;exitDx=0;exitDy=0;entryX=1.004;entryY=0.376;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="7026571954dc6520-1" source="T-tbpQrTCUHHw2_cB1-d-49" target="T-tbpQrTCUHHw2_cB1-d-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="870" as="sourcePoint" />
+            <mxPoint x="870" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-51" value="&lt;font color=&quot;#000000&quot;&gt;E-commerce Shop&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="425" y="810" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-52" value="&lt;font color=&quot;#000000&quot;&gt;Language / Tools : &lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- MERN Stack&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- CSS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;-Javascript&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="400" y="890" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-53" value="&lt;font color=&quot;#000000&quot;&gt;Description````````&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="415" y="850" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-54" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;strokeColor=#66FCF1;fillColor=#C5C6C7;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="665.75" y="690" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-55" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;strokeColor=#05386B;strokeWidth=2;exitX=0.006;exitY=0.373;exitDx=0;exitDy=0;entryX=1.004;entryY=0.376;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="7026571954dc6520-1" source="T-tbpQrTCUHHw2_cB1-d-54" target="T-tbpQrTCUHHw2_cB1-d-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1115.75" y="870" as="sourcePoint" />
+            <mxPoint x="1165.75" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-56" value="&lt;font color=&quot;#000000&quot;&gt;Space Invader Game&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="710.75" y="810" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-57" value="&lt;font color=&quot;#000000&quot;&gt;Language / Tools : &lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- HTML&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- CSS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;-Javascript&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="695.75" y="890" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T-tbpQrTCUHHw2_cB1-d-58" value="&lt;font color=&quot;#000000&quot;&gt;Description````````&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Tahoma;fontSize=16;fontColor=#66FCF1;" vertex="1" parent="7026571954dc6520-1">
+          <mxGeometry x="710.75" y="850" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
