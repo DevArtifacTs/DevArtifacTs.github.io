@@ -1,0 +1,103 @@
+/* Global Style */
+* {
+    border : 1px solid red ;
+    box-sizing: border-box;
+    /* overflow-x : hidden; */
+}
+
+/* Dashboard */
+#dash-board {
+    width:100vw ;
+    height: 50vh;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.dash-board-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+.dashboard-item {
+    width : 45%;
+    height:45%;
+    padding: 20px;
+    margin: 0px 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black ;
+}
+
+/* Activity List */
+#activity-list {
+    width: 100vw;
+    height: auto;;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.activity-list-container {
+    width: 100%;
+    height: auto;
+    display : flex;
+    justify-content: center;
+    padding: 0px 64px 0px 64px;
+
+}
+
+.activity-list-table {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid gray;
+}
+/* Activity Table */
+.activity-table {
+    height: auto;
+}
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+}
+
+.add-act-icon {
+    width: 1.5rem;
+    padding: 0.1rem;
+}
+/* Activity Item */
+.activity-item-container {
+    height: auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.activity-item-info {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.activity-item-info-item {
+    padding: 0px 8px;
+    display: flex;
+
+}
+.activity-item-history-btn {
+    text-align: center;
+    padding: 8px;
+    margin-top: 0.5rem;
+    margin-right: 11.4rem;
+    width: 10%;
+    height: 2rem;
+    
+}
