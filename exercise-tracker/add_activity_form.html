@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exeract, the activity efficiencier tracker." />
+    <link rel="stylesheet" href="style/addForm.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/font.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&family=Prompt:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f7c776685.js" crossorigin="anonymous" defer></script>
+    <title>Exeract App.</title>
+</head>
+<body>
+    
+<!-- Navbar -->
+<section id="nav-bar">        
+    <div class="navbar-logo">
+        <img src="./images/Screen_Shot_2565-02-15_at_09.51.24-removebg-preview.png" alt=""  >
+        <h2 class="nav-bar-logo-text">EXER<span class="nav-bar-logo-text" id="nav-logo-text-feature" >ACT</span></h2>
+    </div>
+        <ul class="navbar-link-container">
+            <li class="link-list"> <a href="./index.html">Home</a></li>
+            <li class="link-list"> <a href="#">Activity</a></li>
+            <li class="link-list"> <a href="#">Discoveries</a></li>
+            <li class="link-list"> 
+                <div class="dropdown">
+                    <button class="dropbtn">Profile</button>
+                    <div class="dropdown-content">
+                      <a href="#">Name</a>
+                      <a href="#">Notification</a>
+                      <a href="#">Privacy & Security</a>
+                      <a href="#">Setting</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+</section>
+
+<!-- Add form -->
+<section id="add-activity-form">
+    <form action=""  class="form-container">
+        <fieldset>
+            <legend class="header-container">
+                <i class="fa-solid fa-dumbbell fa-sm">Create new activity </i>
+            </legend>
+            <div class="input-form-container">
+                <div class="input-form-wrapper">
+                    <div class="form-item">
+                        <label for="activity_type"><h2>Activity type</h2></label>
+                        <select name="activity_type" id="activity_type">
+                            <option value="option1">option1</option>
+                            <option value="option1">option1</option>
+                            <option value="option1">option1</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="act-name"><h2>Activity name</h2></label>
+                        <input type="text"  id="act-name">
+                    </div>
+                    <div class="act-description form-item">
+                        <label for="act-description"><h2>Activity description</h2></label>
+                        <input type="text"  id="act-description">
+                    </div>
+                    <div class="form-item">
+                        <label for="location"><h2>Location</h2></label>
+                        <input type="text" id="location">
+                    </div>
+                    <div class="form-item"> 
+                        <label for="date"><h2>Date</h2></label>
+                        <input type="date"  id="date">
+                    </div>
+                    <div class="time-form-container form-item">
+                        <h2 class="time-form-header time-form-item" id="time-header-text" >Time</h2>
+                        <div class="time-specify-container time-form-item">
+                            <p class="time-form-item-text">From</p>
+                            <input type="time">
+                        </div>
+                        <div class="time-specify-container time-form-item">
+                            <p class="time-form-item-text">To</p>
+                            <input type="time">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <button id="create-btn">submit</button>
+</section>
+
+
+
+
+</body>
+</html>
