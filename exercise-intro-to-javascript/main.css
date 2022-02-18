@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,34,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #FFF;
+}
+
+.button {
+    padding: 1rem;
+    width: 10rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background-color: #d2e904 ;
+    font-size: 1rem;
+    font-weight: bold;
+}

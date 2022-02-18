@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <script src="james.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     
-    <h1 id="my-name">What is my name?</h1>
-    <button onclick="askMyName()" id="ask" >Ask my name</button>
-    <button onclick="helloWorld()" id="hello-world" >Hello World</button>
+    <h1 id="name">What is my name?</h1>
+    <button onclick="askMyName()" id="ask" class="button">Ask my name</button>
+    <button onclick="helloWorld()" id="hello-world" class="button">Hello World</button>
+    <!-- exercise 1 -->
+    <button onclick="calAge()" id="calAge" class="button">calAge</button>
+    <!-- exercise 2  -->
+    <p><strong>Name:</strong><p id="my-name"></p></p>
+    <p><strong>Province:</strong><p id="my-province"></p></p>
+    <button onclick="loadProfile()" id="profile-button" class="button">Load Profile</button>
 
 </body>
 </html>
