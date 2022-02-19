@@ -1,0 +1,139 @@
+/* Guide 
+# Front-end Style Guide
+
+## Layout
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+### Primary
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+### Neutral
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+*/
+
+/* Global Style */
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(216deg 55% 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+html { 
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: hsl(215deg 23% 47%);
+}
+.eth-price {
+    color:hsl(178deg 97% 49%) ;
+}
+/* NFT Card */
+.card {
+    width: 21.8rem ;
+    height: auto ;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(214deg 50% 16%);
+    border-radius: 2rem;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.25rem;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+.card h3 {
+    color:#FFF ;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.card-info  {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.info-item .icon {
+    width : 1rem ;
+    height : auto ;
+}
+.info-item-text {
+     margin: 0 0.5rem;
+}
+
+.card-creator {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0;
+    border-top: 1px solid hsl(215deg 23% 47%);
+}
+.card-creator .creator-avatar {
+    width: auto;
+    width: 3rem ;
+
+    /* border-radius: 15px solid hsl(215deg 23% 47%) ; */
+}
+.card-creator p {
+    margin-left: 1rem;
+}
+.card-creator p  span {
+   color: #fff; 
+}
+
+/* For mobile width : 375px */
+@media screen and (max-width : 375px) {
+    .card {
+        width: 75% ;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .card h3 {
+        color:#FFF ;
+        font-size: 1.2rem;
+    }
+}
+
+/* Animation */
+.card:hover {
+    border : 1px solid hsl(178deg 97% 49%);
+}
+img:hover {
+    cursor: pointer;
+}
+.creator-avatar:hover {
+    transform: scale(1.1);
+}
