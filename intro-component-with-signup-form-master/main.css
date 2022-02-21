@@ -84,6 +84,7 @@ form {
     border-radius: 0.5rem;
     border: 1px solid hsl(246, 25%, 77%) ;
     padding-left: 2.5rem;
+    /* position: relative; */
 }
 ::placeholder {
     font-family: 'Chakra Petch', sans-serif;
@@ -94,6 +95,7 @@ form {
     margin-left: 1rem;
 }
 input[type=text] {
+    position: relative;
     font-size: 20px;
     padding: 15px 22px;
     margin: 10px 5px;
@@ -128,6 +130,33 @@ form p {
 }
 form p span {
     color: hsl(0, 100%, 74%);
+}
+
+/* Error section */
+.border-red {
+    border: 1px solid red;
+}
+.error-msg {
+    height: 6%;
+    position: relative;
+}
+.error-msg p{
+    padding: 0;
+    margin: 0;
+    text-align: end;
+    color: red;
+    font-style: italic;
+}
+
+#first-name-err-icon {
+    width: 2rem;
+    display: inline-block;
+    object-fit: cover;
+    position: absolute;
+    text-align: center;
+    top: -75px;
+    right: 50px;
+    z-index: 1;
 }
 
 /* For Mobile */
@@ -166,6 +195,7 @@ form p span {
     }
     .form-group {
         min-width: 300px;
+        margin-bottom: 2rem;
     }
     .form-header {
         height: 7.5rem;

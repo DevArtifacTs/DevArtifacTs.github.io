@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700& family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Prompt:wght@400; 500;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./main.css" >
+  <script src="./script.js" defer></script>
   <title>Frontend Mentor | Intro component with sign up form</title>
 
 </head>
@@ -27,11 +28,20 @@
         </h3>
       </div>
   
-      <form action="" >
-        <input class="input-field" type="text" placeholder="First Name">
-        <input class="input-field" type="text" placeholder="Last Name">
-        <input class="input-field" type="email" placeholder="Email Address">
-        <input class="input-field" type="password" placeholder="Password">
+      <form onsubmit="inputValidation()" >
+        
+        <input class="input-field" id="first-name" type="text" placeholder="First Name" required>
+        <div id="first-name-err" class="error-msg"></div>
+
+        <input class="input-field" id="last-name" type="text" placeholder="Last Name" required>
+        <div id="last-name-err" class="error-msg"></div>
+
+        <input class="input-field" id="email" type="email" placeholder="Email Address" required>
+        <div id="email-err" class="error-msg"></div>
+
+        <input class="input-field" id="password" type="password" placeholder="Password" required>
+        <div id="password-err" class="error-msg"></div>
+
         <button  type="submit" class="btn btn-submit">Claim your free trial</button>
         <p>
           By clicking the button, you are agreeing to our <span class="click-able-text">Terms and Services.</span> 
