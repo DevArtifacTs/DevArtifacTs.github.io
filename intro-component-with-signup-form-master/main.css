@@ -154,8 +154,8 @@ form p span {
     object-fit: cover;
     position: absolute;
     text-align: center;
-    top: -75px;
-    right: 50px;
+    top: -4.7rem;
+    right: 3rem;
     z-index: 1;
 }
 
