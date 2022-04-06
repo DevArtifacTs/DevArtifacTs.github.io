@@ -14,12 +14,18 @@ function About(props){
                         <p>I switch my career path from mechanical engineer.</p>
                     </div> */}
                     <div className="about-content-right">
-                        <h2 className="blurb-heading">Hello, <br /> my name is James</h2>
-                        <p>I switch my career path from mechanical engineer.</p>
-                        <h2 className="blurb-heading">I blending my skills and experiences to invent a pain point solution</h2>
-                        <p>Implement my workflow process designing and project budget management form my production engineer job and combine with my MERN stack skill it's allow me to see the more wider picture to solve the problem.  </p>
+                        <h3 className="blurb-heading greeting">
+                            Hello, I'm James
+                            <i className="about-full-name">(Jessada Srimoon)</i>
+                        </h3>
+                        <p>
+                            I am a mechanical engineer with a strong interest in software development. 
+                            I am currently designing my works using MERN stack technology.I am a never-ending learner. 
+                            I'd love to learn something new and work with others to complete the tasks.</p>
+                        <h4 className="blurb-heading" id="my-manifest">
+                            I blending my skills and experiences to invent a technology solution.
+                        </h4>
                     </div>
-                    {/* <p className="about-content-signature">Jessada Srimoon</p> */}
                 </div>
             </div>
         </section>
