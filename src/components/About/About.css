@@ -117,6 +117,7 @@
         border: 10px solid rgb(138, 145, 177);    ;
     }
     .about-content-right { 
+        margin-top: 1rem;
         position: static;
     }
  }
